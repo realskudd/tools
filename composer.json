@@ -1,0 +1,21 @@
+{
+    "name": "reaksudd/tools",
+    "description": "Simple tools that I use ALL THE TIME",
+    "type": "library",
+    "license": "none",
+    "authors": [
+        {
+            "name": "Tim Garrison",
+            "email": "skudd.com@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "tools": "src/"
+        }
+    }
+}
